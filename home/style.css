@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(34, 119, 247, 0.534);
+}
+
+.present{
+    font-family: 'david';
+    font-size: 60px;
+    direction: rtl;
+    text-align: center;
+    color: black;
+}
+
+.present:hover{
+    color: cornsilk;
+}
+
+.header{
+    font-family: 'david';
+    font-size: 60px;
+    direction: rtl;
+    text-align: center;
+    color: black;
+}
+
+.header:hover{
+    color: cornsilk;
+}
