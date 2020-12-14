@@ -3,3 +3,7 @@ body{
     align-items: center;
     text-align: center;
 }
+
+input{
+    margin: auto;
+}
