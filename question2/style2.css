@@ -1,6 +1,7 @@
 body{
     align-items: center;
     text-align: center;
+    direction: rtl;
 }
 body, html {
     height: 100%;
@@ -15,19 +16,35 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-  
 
+#sample{
+    border-radius: 30px;
+    color: black;
+}
+  
+h3{
+    font-size: 50px;
+}
+
+button{
+    font-size: 35px;
+    border-radius: 30px;
+}
 
 input{
     margin: auto;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    font-size: 40px;
 }
 
 .lock {
     background: rgb(240, 225, 13);
     border-radius: 3px;
-    width: 25px;
-    height: 20px;
-    margin-top: 60px;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
     margin-left: 60px;
     position: relative;
     align-items: center;
@@ -36,14 +53,25 @@ input{
     margin-right: auto;
 }
 
+h1{
+    font-size: 80px;
+    text-align: center;
+    
+}
+
+h1 span{
+    color: white;
+    background-color: black;
+}
+
 .lock:before {
     content: "";
     display: block;
     position: absolute;
     border:3px solid yellow;
-    top: -14px;
-    left: 2.3px;
-    width: 15px;
-    height: 27px;
+    top: -30px;
+    left: 6.4px;
+    width: 30px;
+    height: 45px;
     border-radius: 35px 35px 0 0;
 }

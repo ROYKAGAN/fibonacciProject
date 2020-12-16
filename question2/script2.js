@@ -2,7 +2,7 @@ function checkInput(){
 
     var password = document.getElementById("sample").value;
 
-    if (password == 123){
+    if (password == 11){
         alert("כל הכבוד!")
         window.location.pathname = "/fibonacciProject/question3/index3.html";
     } 
@@ -12,4 +12,8 @@ function checkInput(){
 
 function goToPass(){
     window.location.pathname = "/fibonacciProject/question2/password.html";
+}
+
+function backToQ(){
+    window.location.pathname = "/fibonacciProject/question2/index2.html";
 }
