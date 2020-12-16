@@ -1,0 +1,17 @@
+body{
+    cursor: default;
+    background-color: rgba(34, 119, 247, 0.534);
+    direction: rtl;
+    float: right;
+    align-items: center;
+}
+
+
+.header{
+    cursor: default;
+    font-family: 'david';
+    font-size: 60px;
+    direction: rtl;
+    text-align: center;
+    color: black;
+}

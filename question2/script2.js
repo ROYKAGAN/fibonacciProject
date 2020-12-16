@@ -7,9 +7,5 @@ function checkInput(){
         window.location.pathname = "/question3/index3.html";
     }
 
-    else{
-        alert("הסיסמה שגויה נסה שוב")
-    }
-
     document.getElementById("sample").value = ""
 }

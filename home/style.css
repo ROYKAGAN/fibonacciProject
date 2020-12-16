@@ -1,14 +1,9 @@
 body{
     cursor: default;
-    background-color: rgba(34, 119, 247, 0.534);
+    background-image: url("homeBackG.jpg");
+    background: no-repeat center center cover;
+    background-size: cover;
 }
-
-.start{
-    font-size: 40px;
-    text-align: center;
-    direction: rtl;
-}
-
 
 .present{
     cursor: default;
@@ -29,37 +24,10 @@ body{
     color: black;
 }
 
-
-a:link {
-    font-size: 40px;
-    text-align: center;
-    direction: rtl;
-    color: bisque;
-}
-  
-/* visited link */
-a:visited {
-    font-size: 40px;
-    text-align: center;
-    direction: rtl;
-    color: white;
+a{
+    cursor: default;
 }
 
-/* mouse over link */
-a:hover {
-    font-size: 40px;
-    text-align: center;
-    direction: rtl;
-    color: cornsilk;
-}
-
-/* selected link */
-a:active {
-    font-size: 40px;
-    text-align: center;
-    direction: rtl;
-    color: darkseagreen;
-}
 
 img{
     cursor: default;
