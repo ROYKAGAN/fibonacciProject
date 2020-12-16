@@ -1,8 +1,13 @@
 body{
+    background-image: url("back.jpg");
     direction: rtl;
     text-align: center;
     cursor: default;
+    background: no-repeat center center cover;
+    background-size: cover;
+    color: rgba(0, 238, 255, 0.788);
 
+    
 }
 
 .num{

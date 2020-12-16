@@ -9,3 +9,7 @@ function checkInput(){
 
     document.getElementById("sample").value = ""
 }
+
+function goToPass(){
+    window.location.pathname = "/fibonacciProject/question2/password.html";
+}
