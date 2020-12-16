@@ -4,7 +4,7 @@ function checkInput(){
 
     if (password == 123){
         alert("כל הכבוד!")
-        window.location.pathname = "/question3/index3.html";
+        window.location.pathname = "/fibonacciProject/question3/index3.html";
     }
 
     document.getElementById("sample").value = ""
