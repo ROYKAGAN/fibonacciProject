@@ -1,12 +1,15 @@
 function checkInput(){
+
     var password = document.getElementById("sample").value;
-    console.log(password);
+
     if (password == 123){
-        window.location.pathname = "/path/to/another/file.html/";
+        alert("כל הכבוד!")
+        window.location.pathname = "/question3/index3.html";
     }
 
     else{
-        alert("הסיסמה שגויה")
+        alert("הסיסמה שגויה נסה שוב")
     }
+
     document.getElementById("sample").value = ""
 }

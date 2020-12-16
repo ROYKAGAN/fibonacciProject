@@ -46,6 +46,7 @@ nav ul li{
     z-index: 1;
     transition: 0.5s;
     margin: 1em;
+    left: 2rem;
 }
 
 nav ul li span {
@@ -86,4 +87,37 @@ nav ul li span:nth-child(3) {
 
 nav ul li span:nth-child(4) {
     --n: 4;
+}
+
+#next{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    font-size: 40px;
+    direction: rtl;
+    color: bisque;
+}
+  
+/* visited link */
+a:visited {
+    font-size: 40px;
+    direction: rtl;
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    font-size: 40px;
+    direction: rtl;
+    color: cornsilk;
+}
+
+/* selected link */
+a:active {
+    font-size: 40px;
+    direction: rtl;
+    color: darkseagreen;
 }
