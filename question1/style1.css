@@ -1,4 +1,7 @@
 body{
+    align-items: center;
+    align-content: center;
+    text-align: center;
     background-color: rgba(34, 119, 247, 0.534);
 }
 
@@ -17,7 +20,8 @@ body{
 
 
 
-nav ul {
+ul {
+    
     text-align: center;
     align-items: center;
     align-content: center;
@@ -26,7 +30,7 @@ nav ul {
     padding: 0;
 }
 
-nav ul li{
+ul li{
     text-align: center;
     align-items: center;
     align-content: center;
@@ -49,7 +53,7 @@ nav ul li{
     left: 2rem;
 }
 
-nav ul li span {
+ul li span {
     text-align: center;
     align-items: center;
     align-content: center;
@@ -65,27 +69,27 @@ nav ul li span {
     z-index: -1;
 }
 
-nav ul li:hover {
+ul li:hover {
     color: black;
 }
 
-nav ul li:hover span {
+ul li:hover span {
     transform: translateY(0) scale(2);
 }
 
-nav ul li span:nth-child(1) {
+ul li span:nth-child(1) {
     --n: 1;
 }
 
-nav ul li span:nth-child(2) {
+ul li span:nth-child(2) {
     --n: 2;
 }
 
-nav ul li span:nth-child(3) {
+ul li span:nth-child(3) {
     --n: 3;
 }
 
-nav ul li span:nth-child(4) {
+ul li span:nth-child(4) {
     --n: 4;
 }
 
