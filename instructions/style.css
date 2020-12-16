@@ -1,17 +1,49 @@
 body{
     cursor: default;
-    background-color: rgba(34, 119, 247, 0.534);
+    background-image: url("Aloe.jpg");
     direction: rtl;
     float: right;
-    align-items: center;
+    text-align: right;
+    background: no-repeat center center cover;
+    background-size: cover;
+}
+
+body:after{
+    content: "";
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0; 
+    background: hsla(260,10%,80%,0.25);
+    pointer-events: none;
+  }
+  
+button{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: 'david';
 }
 
 
-.header{
+.header span{
     cursor: default;
     font-family: 'david';
     font-size: 60px;
     direction: rtl;
-    text-align: center;
-    color: black;
+    color: white;
+    background-color: black;
+}
+
+.inst{
+    font-size: 45px
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+h2 span{
+    color: white;
+    background-color: black;
 }

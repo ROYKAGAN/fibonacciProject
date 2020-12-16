@@ -1,3 +1,3 @@
 function nextQ(){
-    window.location.pathname = "/fibonacciProject/question1/index1.html"; 
+    window.location.pathname = "/fibonacciProject/instructions/index.html"; 
 }

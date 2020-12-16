@@ -18,6 +18,12 @@ body{
     color: rgb(34, 14, 245);
 }
 
+nav{
+    float: none;
+    position: absolute;
+    top: 30%;
+    left: 38.5%;
+}
 
 
 nav ul {
