@@ -17,7 +17,7 @@ body:after{
     text-align: right;
     cursor: default;
     font-family: 'david';
-    font-size: 60px;
+    font-size: 80px;
     direction: rtl;
     text-align: center;
     color: black;
@@ -37,7 +37,7 @@ body:after{
 .header span{
     cursor: default;
     font-family: 'david';
-    font-size: 60px;
+    font-size: 80px;
     direction: rtl;
     text-align: center;
     background-color: black;
