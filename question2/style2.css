@@ -9,7 +9,7 @@ body, html {
     height: 100%;
     margin: 0;
     background-image: url("פיבו.jpg");
-
+ 
     /* Full height */
     height: 100%; 
 
@@ -23,7 +23,7 @@ body, html {
 
 .backToQ{
     float: right;
-    font-size: 50px;
+    font-size: 50px; 
 }
 
 body:after{
