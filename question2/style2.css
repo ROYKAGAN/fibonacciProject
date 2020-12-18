@@ -2,8 +2,10 @@ body{
     align-items: center;
     text-align: center;
     direction: rtl;
+    font-family: 'david';
 }
 body, html {
+    align-items: center;
     height: 100%;
     margin: 0;
     background-image: url("פיבו.jpg");
@@ -15,6 +17,13 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    background-position: center;
+}
+
+.backToQ{
+    float: right;
+    font-size: 50px;
 }
 
 body:after{
@@ -27,25 +36,32 @@ body:after{
   
 
 #sample{
-    border-radius: 30px;
+    border-radius: 50px;
     color: black;
 }
   
 h3{
-    font-size: 50px;
+    font-size: 70px;
 }
 
 button{
-    font-size: 35px;
-    border-radius: 30px;
+    font-family: 'david';
+    background-color: black;
+    border-style: ridge;
+    color: aliceblue;
+    font-size: 70px;
+    border-radius: 50px;
 }
 
 input{
+    font-family: 'david';
+    background-color: black;
+    border-style: groove;
     margin: auto;
     top: 50%;
     left: 50%;
     right: auto;
-    font-size: 40px;
+    font-size: 70px;
 }
 
 .lock {
@@ -68,7 +84,7 @@ h1{
     
 }
 
-h1 span{
+h1 span, h3 span{
     color: white;
     background-color: black;
 }
