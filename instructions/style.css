@@ -22,6 +22,15 @@ button{
     color: white;
     font-size: 40px;
     font-family: 'david';
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header{
+    text-align: center;
 }
 
 
@@ -32,11 +41,13 @@ button{
     direction: rtl;
     color: white;
     background-color: black;
+    text-align: center;
 }
 
 .inst{
     direction: rtl;
-    font-size: 45px
+    font-size: 45px;
+    text-align: center;
 }
 
 
