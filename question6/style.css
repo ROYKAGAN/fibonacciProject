@@ -22,7 +22,7 @@ body{
 
 
 nav ul li{
-    --c: rgba(14, 141, 245);
+    --c: orange;
     color: var(--c);
     font-size: 18px;
     border: 0.3em solid var(--c);
