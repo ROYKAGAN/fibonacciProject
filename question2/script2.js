@@ -3,10 +3,26 @@ function checkInput(){
     var password = document.getElementById("sample").value;
 
     if (password == 11){
-        alert("כל הכבוד!")
+        var head = document.getElementsByTagName('HEAD')[0];  
+        var link = document.createElement('link'); 
+
+        link.rel = 'stylesheet';
+        link.href = 'correct.css';
+        
+        head.appendChild(link);
         //next  q:
         // window.location.pathname = "/fibonacciProject/question3/index3.html";
-    } 
+    }
+
+    else{
+        var head = document.getElementsByTagName('HEAD')[0];  
+        var link = document.createElement('link'); 
+
+        link.rel = 'stylesheet';
+        link.href = 'incorrect.css';
+        
+        head.appendChild(link);
+    }
 
     document.getElementById("sample").value = ""
 }
