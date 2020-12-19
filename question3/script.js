@@ -2,7 +2,7 @@ function checkInput(){
 
     var password = document.getElementById("sample").value;
 
-    if (password == 11){
+    if (password == 340){
         var head = document.getElementsByTagName('HEAD')[0];  
         var link = document.createElement('link'); 
 

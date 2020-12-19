@@ -35,6 +35,7 @@ button{
 }
 
 .inst{
+    direction: rtl;
     font-size: 45px
 }
 
