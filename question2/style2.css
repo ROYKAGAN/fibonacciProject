@@ -3,6 +3,7 @@ body{
     text-align: center;
     direction: rtl;
     font-family: 'david';
+    color: white;
 }
 body, html {
     align-items: center;
@@ -37,7 +38,7 @@ body:after{
 
 #sample{
     border-radius: 50px;
-    color: black;
+    color: white;
 }
   
 h3{
@@ -54,6 +55,7 @@ button{
 }
 
 input{
+    color: aliceblue;
     font-family: 'david';
     background-color: black;
     border-style: groove;
