@@ -30,7 +30,7 @@ function checkInput(){
 }
 
 function goToPass(){
-    window.location.pathname = "/fibonacciProject/question2/password.html";
+    window.location.pathname = "/fibonacciProject/question3/password.html";
 }
 
 function backToQ(){
