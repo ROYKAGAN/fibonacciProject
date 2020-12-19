@@ -1,7 +1,6 @@
 function nextQ(){
-    window.location.pathname = "/fibonacciProject/question2/index2.html"; 
+    window.location.pathname = "/fibonacciProject/question8/index.html"; 
 }
-
 
 function wrong1(){
     var head = document.getElementsByTagName('HEAD')[0];  

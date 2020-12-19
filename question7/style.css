@@ -1,7 +1,7 @@
 body{
     background-color: rgba(34, 119, 247, 0.534);
     cursor: default;
-
+    direction: rtl;
 }
 
 .options{
@@ -19,7 +19,6 @@ body{
     text-align: center;
     color: black;
 }
-
 
 
 nav ul li{

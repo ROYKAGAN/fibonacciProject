@@ -13,7 +13,7 @@ function checkInput(){
 
         alert("כל הכבוד")
         //next  q:
-        window.location.pathname = "/fibonacciProject/question4/index.html";
+        window.location.pathname = "/fibonacciProject/question5/index.html";
     }
 
     else{
