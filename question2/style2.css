@@ -33,7 +33,7 @@ body:after{
     top: 0; bottom: 0; left: 0; right: 0; 
     background: hsla(260,0%,50%,0.25);
     pointer-events: none;
-  }
+}
   
 
 #sample{
@@ -42,7 +42,7 @@ body:after{
 }
   
 h3{
-    font-size: 70px;
+    font-size: 60px;
 }
 
 button{

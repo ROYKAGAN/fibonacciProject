@@ -10,8 +10,10 @@ function checkInput(){
         link.href = 'correct.css';
         
         head.appendChild(link);
+
+        alert("כל הכבוד")
         //next  q:
-        // window.location.pathname = "/fibonacciProject/question3/index3.html";
+        window.location.pathname = "/fibonacciProject/question3/index3.html";
     }
 
     else{
