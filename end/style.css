@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+  
+canvas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.title {
+    direction: rtl;
+    position: absolute;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    font-size: 80px;
+    font-family: 'david';
+    line-height: 100vh;
+    font-weight: lighter;
+    color: rgb(243, 172, 65);
+    text-align: center;
+}

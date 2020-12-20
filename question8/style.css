@@ -1,114 +1,123 @@
 body{
-    background-color: rgba(34, 119, 247, 0.534);
-    cursor: default;
+    align-items: center;
+    text-align: center;
     direction: rtl;
+    font-family: 'david';
+    color: white;
+}
+body, html {
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-image: url("shablul.jpg");
+ 
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
 }
 
-.options{
+.backToQ{
+    text-align: center;
+    font-size: 50px; 
+}
+
+body:after{
+    content: "";
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0; 
+    background: hsla(260,0%,50%,0.25);
+    pointer-events: none;
+}
+  
+
+#sample{
+    border-radius: 50px;
+    color: white;
+}
+  
+h3{
+    font-size: 60px;
+}
+
+button{
+    font-family: 'david';
+    background-color: black;
+    border-style: ridge;
+    color: aliceblue;
+    font-size: 70px;
+    border-radius: 50px;
+}
+
+input{
+    color: aliceblue;
+    font-family: 'david';
+    background-color: black;
+    border-style: groove;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    font-size: 70px;
+}
+
+.hint{
     text-align: center;
     margin: auto;
     align-items: center;
     justify-content: center;
-    display: flex;
-
+    font-size: 50px;
 }
 
-.header{
-    font-family: 'david';
-    font-size: 60px;
-    direction: rtl;
-    text-align: center;
-    color: black;
-}
-
-
-nav ul li{
-    --c: green;
-    color: var(--c);
-    font-size: 18px;
-    border: 0.3em solid var(--c);
-    border-radius: 0.5em;
-    width: 25em;
-    height: 3em;
-    font-weight: bold;
-    font-family: "david";
-    letter-spacing: 0.1em;
-    line-height: 3em;
+.lock {
+    top: 90px;
+    background:white;
+    border-radius: 3px;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 60px;
     position: relative;
-    overflow: hidden;
-    z-index: 1;
-    transition: 0.5s;
-    margin: 1em;
-    left: 2rem;
-}
-
-nav ul li span {
-    
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: var(--c);
-    transform: translateY(150%);
-    border-radius: 50%;
-    left: calc((var(--n) - 1) * 25%);
-    transition: 0.5s;
-    transition-delay: calc((var(--n) - 1) * 0.1s);
-    z-index: -1;
-}
-
-nav ul li:hover {
-    color: black;
-}
-
-nav ul li:hover span {
-    transform: translateY(0) scale(2);
-}
-
-nav ul li span:nth-child(1) {
-    --n: 1;
-}
-
-nav ul li span:nth-child(2) {
-    --n: 2;
-}
-
-nav ul li span:nth-child(3) {
-    --n: 3;
-}
-
-nav ul li span:nth-child(4) {
-    --n: 4;
-}
-
-#next{
-    display: block;
-    margin-left: auto;
+    margin: auto;
+    margin-right: auto;
     margin-right: auto;
 }
 
-a:link {
-    font-size: 40px;
-    direction: rtl;
-    color: bisque;
+h1{
+    font-size: 70px;
+    text-align: center;
+    
 }
-  
-/* visited link */
-a:visited {
-    font-size: 40px;
-    direction: rtl;
+
+h1 span, h3 span{
+    color: white;
+    background-color: black;
+}
+
+.lock:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border:3px solid white;
+    top: -25px;
+    left: 12px;
+    width: 50px;
+    height: 65px;
+    border-radius: 35px 35px 0 0;
+}
+
+
+.hintText{
+    background-color: black;
     color: white;
 }
 
-/* mouse over link */
-a:hover {
-    font-size: 40px;
-    direction: rtl;
-    color: cornsilk;
-}
-
-/* selected link */
-a:active {
-    font-size: 40px;
-    direction: rtl;
-    color: darkseagreen;
+img{
+    width: 150px;
+    height: 200px;
 }

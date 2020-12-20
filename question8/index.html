@@ -4,40 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>#1 question</title>
-</head>
+    <title>חידה סופית</title>
+</head> 
 <body>
+    <br> <br>
 
-  <h1 class="header">השלימו את המשפט הבא: אם נחשב את היחס בין כל שני איברים עוקבים בסדרת פיבונאצ'י, כולם יתקבצו סביב הערך</h1>
-  
-  
-  <div class="options">
-    <nav>
-      <ul>
-        <li onclick="wrong1()" class="wrong1">
-          1.4
-          <span></span><span></span><span></span><span></span>
-        </li>
-        <li onclick="wrong2()" class="wrong2">
-          2
-          <span></span><span></span><span></span><span></span>
-        </li>
-        <li onclick="nextQ()">
-          1.6 
-          <span></span><span></span><span></span><span></span>
-        </li>
-        <li onclick="wrong3()" class="wrong3">
-          1.8
-          <span></span><span></span><span></span><span></span>
-        </li>
-      </ul>
-    </nav>
+    <div class="hintSection">
+        <button class="hint" onclick="getHint()" id="hint">לחץ כאן לקבלת רמז</button>
+
+    </div>
     
-  </div>
+    <h3><span>
+        לפי חידת הארנבונים של פיבונאצ'י, כמה זוגות ארנבונים יהיו בתום שישה חודשים?
+    </span></h3>
 
-  
+    <input type="password" name="answer" id="sample" placeholder="סיסמה">
 
-  <script src="script.js"></script>
+    <br> <br>
+    <img src="door.png" onclick="checkInput()">
+
+    <br><br>
+
+    <script src="script2.js"></script>
 
 </body>
 </html>
