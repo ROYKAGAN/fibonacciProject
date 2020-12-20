@@ -37,6 +37,7 @@ body:after{
   
 
 #sample{
+    width: 400px;
     border-radius: 50px;
     color: white;
 }
