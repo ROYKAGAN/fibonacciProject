@@ -1,8 +1,25 @@
 body{
-    background-color: rgba(34, 119, 247, 0.534);
     cursor: default;
     direction: rtl;
 }
+
+body, html {
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-image: url("bg.png");
+ 
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+}
+
 
 .options{
     text-align: center;
@@ -15,7 +32,7 @@ body{
 
 .header{
     font-family: 'david';
-    font-size: 60px;
+    font-size: 55px;
     direction: rtl;
     text-align: center;
     color: black;
@@ -39,7 +56,7 @@ nav ul li{
     z-index: 1;
     transition: 0.5s;
     margin: 1em;
-    left: 2rem;
+
 }
 
 nav ul li span {

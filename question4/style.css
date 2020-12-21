@@ -1,17 +1,26 @@
 body{
-    background-color: rgba(34, 119, 247, 0.534);
+    background-image: url("bg.jpg");
+    background: no-repeat center center cover;
+    background-size: cover;background: no-repeat center center cover;
+    background-size: cover;
     cursor: default;
 
 }
 
-.options{
+.options nav{
+    align-items: center;
+    width: 500px;
+    
     text-align: center;
     margin: auto;
     align-items: center;
     justify-content: center;
     display: flex;
+    position: static;
 
 }
+
+
 
 .header{
     font-family: 'david';
@@ -21,10 +30,15 @@ body{
     color: black;
 }
 
+nav{
 
+    border-radius: 50px;
+    align-items: center;
+}
 
 nav ul li{
-    --c: rgba(14, 141, 245);
+
+    --c: rgb(10, 201, 105);
     color: var(--c);
     font-size: 18px;
     border: 0.3em solid var(--c);
@@ -40,7 +54,7 @@ nav ul li{
     z-index: 1;
     transition: 0.5s;
     margin: 1em;
-    left: 2rem;
+
 }
 
 nav ul li span {
@@ -81,11 +95,7 @@ nav ul li span:nth-child(4) {
     --n: 4;
 }
 
-#next{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 a:link {
     font-size: 40px;

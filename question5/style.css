@@ -1,8 +1,26 @@
 body{
-    background-color: rgba(34, 119, 247, 0.534);
+
     cursor: default;
 
 }
+
+body, html {
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-image: url("shablul.jpg");
+ 
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+}
+
 
 .options{
     text-align: center;
@@ -39,7 +57,7 @@ nav ul li{
     z-index: 1;
     transition: 0.5s;
     margin: 1em;
-    left: 2rem;
+
 }
 
 nav ul li span {
