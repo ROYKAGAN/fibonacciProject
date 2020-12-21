@@ -21,7 +21,7 @@ function checkInput(){
 
         head.appendChild(link);
         //next  q:
-        window.location.pathname = "/fibonacciProject/question7/index.html";
+        window.location.pathname = "/fibonacciProject/spirala/q6.html";
     }
 
     else{

@@ -1,5 +1,5 @@
 function nextQ(){
-    window.location.pathname = "/fibonacciProject/question6/index.html"; 
+    window.location.pathname = "/fibonacciProject/spirala/q4.html"; 
 }
 
 function wrong1(){
