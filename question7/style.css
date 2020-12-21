@@ -38,6 +38,9 @@ body, html {
     background-position: center;
 }
 
+h1 span{
+    background-color: aliceblue;
+}
 
 nav ul li{
     --c: white;
