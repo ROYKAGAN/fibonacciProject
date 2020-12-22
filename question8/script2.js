@@ -2,7 +2,7 @@ function checkInput(){
 
     var password = document.getElementById("sample").value;
 
-    if (password == 13){
+    if (password == 377){
         var head = document.getElementsByTagName('HEAD')[0];  
         var link = document.createElement('link'); 
 
@@ -44,7 +44,7 @@ function getHint(){
 
         h1.className = "hintText"
 
-        h1.textContent = "חפשו בגוגל: חידת הארנבונים של פיבונאצ'י"
+        h1.textContent = "זוג ארנבים ממליט כל חודש זוג ארנבים חדש. כל זוג ארנבים חדש מחכה חודש עד לתחילת ההמלטות. אם מכניסים לגן סגור זוג חדש של ארנבים, כמה זוגות של ארנבים יהיו בסוף השנה?"
 
         div.appendChild(h1);
         
