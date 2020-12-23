@@ -64,4 +64,4 @@ const ctx = canvasEl.getContext('2d');
 const confNum = Math.floor(w / 4);
 const confs = new Array(confNum).fill().map(_ => new Confetti());
 
-loop();
+loop(); 
