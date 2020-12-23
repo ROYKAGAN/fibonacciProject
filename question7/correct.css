@@ -1,0 +1,9 @@
+.lock:before{
+    height: 40px;
+    top: -60px
+}
+
+input{
+    border-radius: 80px;
+    border-color: rgb(53, 228, 53);
+}
