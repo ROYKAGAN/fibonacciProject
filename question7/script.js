@@ -1,33 +1,39 @@
-function nextQ(){
-    window.location.pathname = "/fibonacciProject/spirala/q7.html"; 
+function goToPass(){
+    window.location.pathname = "/fibonacciProject/question7/password.html";
 }
 
-function wrong1(){
-    var head = document.getElementsByTagName('HEAD')[0];  
-    var link = document.createElement('link'); 
+function backToQ(){
+    window.location.pathname = "/fibonacciProject/question7/index.html";
+}
 
-    link.rel = 'stylesheet';
-    link.href = 'wrong1.css';
+function checkInput(){
     
-    head.appendChild(link);
+    var password = document.getElementById("sample").value;
+
+    if (password == "יחס הזהב"){
+        var head = document.getElementsByTagName('HEAD')[0];  
+        var link = document.createElement('link'); 
+
+        link.rel = 'stylesheet';
+        link.href = 'correct.css';
+
+        alert("כל הכבוד")
+
+        head.appendChild(link);
+        //next  q:
+        window.location.pathname = "/fibonacciProject/spirala/q7.html";
+    }
+
+    else{
+        var head = document.getElementsByTagName('HEAD')[0];  
+        var link = document.createElement('link'); 
+
+        link.rel = 'stylesheet';
+        link.href = 'incorrect.css';
+        
+        head.appendChild(link);
+    }
+
+    document.getElementById("sample").value = ""
 }
 
-function wrong2(){
-    var head = document.getElementsByTagName('HEAD')[0];  
-    var link = document.createElement('link'); 
-
-    link.rel = 'stylesheet';
-    link.href = 'wrong2.css';
-    
-    head.appendChild(link);
-}
-
-function wrong3(){
-    var head = document.getElementsByTagName('HEAD')[0];  
-    var link = document.createElement('link'); 
-
-    link.rel = 'stylesheet';
-    link.href = 'wrong3.css';
-    
-    head.appendChild(link);
-}

@@ -4,28 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>חידה סופית</title>
-</head> 
+    <title>#7 question</title>
+</head>
 <body>
-    <br> <br>
 
-    <div class="hintSection">
-        <button class="hint" onclick="getHint()" id="hint">לחץ כאן לקבלת רמז</button>
-
-    </div>
+  <h1 class="header"> <span>
+    אילו מהבאות היא סדרה המתאימה לכלל של סדרת פיבונאצ'י?
+  </span></h1>
     
-    <h3><span>
-         כמה זוגות ארנבונים יהיו בתום שנה שלמה?
-    </span></h3>
+  <div class="options">
+    <nav>
+      <ul>
+        <li onclick="wrong1()" class="wrong1">
+          3,3,6,6,9,9,21,21,90,78
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li onclick="wrong2()" class="wrong2">
+          6,4,10,14,92,21
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li onclick="wrong3()" class="wrong3">
+          3,3,6,9,15,23,32 
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li onclick="nextQ()">
+          240,238,478,716,1194
+          <span></span><span></span><span></span><span></span>
+        </li>
+      </ul>
+    </nav>
+    
+  </div>
 
-    <input type="password" name="answer" id="sample" placeholder="תשובה">
+  
 
-    <br> <br>
-    <img src="door.png" onclick="checkInput()">
-
-    <br><br>
-
-    <script src="script2.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
