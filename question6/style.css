@@ -20,6 +20,10 @@ body, html {
     background-position: center;
 }
 
+ul{
+    padding-inline-start: 0px;
+
+}
 
 .options{
     text-align: center;

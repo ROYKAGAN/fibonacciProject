@@ -8,6 +8,10 @@ body{
 }
 
 .options nav{
+    background-color: aliceblue;
+}
+
+.options nav{
     align-items: center;
     width: 500px;
     
@@ -69,6 +73,10 @@ nav ul li span {
     transition: 0.5s;
     transition-delay: calc((var(--n) - 1) * 0.1s);
     z-index: -1;
+}
+
+ul{
+    padding-inline-start: 0px;
 }
 
 nav ul li:hover {
