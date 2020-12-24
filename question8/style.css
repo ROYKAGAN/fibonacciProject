@@ -17,6 +17,10 @@ ul{
     padding-inline-start: 0px;
 }
 
+.options nav{
+    background-color: aliceblue;
+}
+
 
 .header{
     font-family: 'david';
@@ -24,6 +28,12 @@ ul{
     direction: rtl;
     text-align: center;
     color: black;
+}
+
+nav{
+
+    border-radius: 50px;
+    align-items: center;
 }
 
 body, html {
@@ -48,7 +58,7 @@ h1 span{
 }
 
 nav ul li{
-    --c: white;
+    --c: rgb(153, 117, 70);
     color: var(--c);
     font-size: 18px;
     border: 0.3em solid var(--c);
@@ -64,6 +74,19 @@ nav ul li{
     z-index: 1;
     transition: 0.5s;
     margin: 1em;
+
+}
+
+.options nav{
+    align-items: center;
+    width: 500px;
+    
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: static;
 
 }
 
