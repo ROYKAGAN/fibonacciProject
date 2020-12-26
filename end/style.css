@@ -3,6 +3,9 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
+    background-image: url("q9.jpg");
+    background: no-repeat center center cover;
+    background-size: cover;
 }
   
 canvas {
