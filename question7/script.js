@@ -24,6 +24,10 @@ function checkInput(){
         window.location.pathname = "/fibonacciProject/spirala/q7.html";
     }
 
+    if (password == "יחסהזהב"){
+        alert("אל תשכחו רווחים")
+    }
+
     else{
         var head = document.getElementsByTagName('HEAD')[0];  
         var link = document.createElement('link'); 
