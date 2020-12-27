@@ -28,6 +28,12 @@ function checkInput(){
         alert("אל תשכחו רווחים")
     }
 
+    if (password.toLowerCase() == "hjx vzvc"){
+        alert("אתם על אנגלית")
+    }
+
+
+
     else{
         var head = document.getElementsByTagName('HEAD')[0];  
         var link = document.createElement('link'); 
